@@ -618,9 +618,11 @@
       .hamburger { display: flex; }
 
       .hero {
+        height: auto;
         align-items: start;
         min-height: auto;
         padding-top: calc(var(--nav-h) + 42px);
+        overflow: visible;
       }
 
       .hero__inner {
@@ -670,8 +672,10 @@
       }
 
       .hero {
+        height: auto;
         padding-top: calc(var(--nav-h) + 30px);
         padding-bottom: 34px;
+        overflow: visible;
       }
 
       .eyebrow {
@@ -688,8 +692,9 @@
       }
 
       h1 {
-        font-size: clamp(2.18rem, 12vw, 3.28rem);
-        line-height: .97;
+        font-size: clamp(1.72rem, 8.1vw, 2.38rem);
+        line-height: .94;
+        letter-spacing: -.03em;
       }
 
       .hero__lead {
@@ -735,6 +740,7 @@
       }
 
       .photo-card {
+        height: auto;
         min-height: 460px;
         border-radius: 24px 48px 24px 24px;
       }
